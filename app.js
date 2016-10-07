@@ -19,8 +19,7 @@ $('input').on("click", function() {
 	
 	if($("#modify-texte").is(':checked')){
 		$('.main').css('color', backColor);
-	}
-	else{
+	} else {
 		$('body').css('background', backColor);
 
 	}
